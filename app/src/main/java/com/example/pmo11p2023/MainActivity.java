@@ -69,10 +69,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void ClearScreen()
     {
-        nombres.setText("Transacciones.Empty");
-        apellidos.setText("Transacciones.Empty");
-        correo.setText("Transacciones.Empty");
-        edad.setText("Transacciones.Empty");
+        nombres.setText(Transacciones.Empty);
+        apellidos.setText(Transacciones.Empty);
+        correo.setText(Transacciones.Empty);
+        edad.setText(Transacciones.Empty);
     }
     private void MostrarCliente() {
         String mensaje = nombres.getText().toString() +
